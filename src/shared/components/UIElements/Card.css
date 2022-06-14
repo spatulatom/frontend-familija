@@ -1,0 +1,20 @@
+.card {
+  position: relative;
+  margin: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  /* border-radius: 6px 6px 0 0; */
+  padding:3rem;
+  overflow: hidden;
+  background: white;
+
+}
+.card.place-list__empty-list{
+  background-color: var(--my-color);
+  color: white;
+}
+
+@media (min-width: 600px){
+  .card{
+    border-radius: 6px 6px 0 0;
+  }
+}

@@ -1,0 +1,50 @@
+.likes{
+  padding: 0.5rem;
+}
+
+.fa-solid{
+  color: aliceblue;
+  transform: scale(1.5);
+  transition: transform 0.2s ease-in;
+}
+
+.fa-solid:hover{
+  transform: scale(2.2);
+}
+
+.fa-solid.red{
+ color: var(--my-color);
+}
+
+.fa-solid:hover{
+  transform: scale(2.0);
+}
+
+.like{
+  display: inline-block;
+  padding: 0.2rem 1rem 0.2rem .7rem;
+  color: white;
+  margin:0;
+}
+
+.display-none{
+    display: none;
+}
+
+.like.count{ 
+    padding-right: 1rem;
+    padding-left: 0rem;
+    
+}
+.like.users{
+    padding: 0rem;
+    margin-right: 0.4rem;
+    color: var(--my-color);
+}
+
+.like.users:last-child .coma{
+    display: none;
+}
+.coma{
+  margin:0;
+}

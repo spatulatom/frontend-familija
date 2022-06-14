@@ -1,0 +1,11 @@
+.place-list {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 98%;
+  max-width: 40rem;
+
+}
+ .place-list.center{
+  color: black;
+ }

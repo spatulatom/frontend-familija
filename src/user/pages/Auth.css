@@ -1,0 +1,43 @@
+.authentication__header {
+  color: white;
+  text-align: center;
+}
+
+.authentication {
+  width: 90%;
+  max-width: 25rem;
+  margin: 7rem auto;
+  text-align: center;
+  background-color: white;
+}
+
+.authentication form {
+  margin-bottom: 1rem;
+}
+.authentication button{
+width:100%;
+padding: .5rem;
+}
+
+h5{
+ margin: 2rem 0 4rem;
+  /* color: red; */
+  text-decoration: none;
+}
+h5:hover{
+ 
+  background-color: red;
+  color: white;
+}
+input{
+  font-size: inherit;
+  margin-right: 5px;
+  margin-bottom: 10px;
+padding: 5px
+}
+h4{
+  color:white;
+}
+hr{
+  color: var(--my-color)
+}
